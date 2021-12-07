@@ -1,0 +1,55 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136495828-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136495828-2');
+</script>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <div class="container">
+            <section id="home">
+                <h1>Welcome</h1>
+            </section>
+            <section id="about">
+                <h1>Objective:</h1>
+                <p>At the bottom of this page exists a login system.<br> You are tasked with 
+                     discovering the login information.<br>The username and password are hidden within the code along with other data.</p>
+                     <p2>Keep Searching :)</p2>
+            </section>
+            <section id="contact">
+                <!--Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quidem nisi totam nemo incidunt impedit.-->
+                <p>Look thoroughly and carefully,<br>you do not want to miss anything</p>
+                <p1>Best of Luck</p1>
+            </section>
+            <section id="login">
+                <form class="login-form" action="./" method="POST">
+                    <div class="login-form__logo-container">
+                        <img class="login-form__logo" src="img/Cyber.jpeg" alt="Logo">
+                    </div>
+                    <div class="login-form__content">
+                        <div class="login-form__header">Login to your account</div>
+                        <input class="login-form__input" type="text" name="dc_username" placeholder="Username">
+                        <input class="login-form__input" type="password" name="dc_username" placeholder="Password">
+                        <a href="/nimriwebinfo/index.html"><div class="login-form__button" type="submit">Login</div></a>
+		       <!--<a href="http://nimriweb.info/"><div class="login-form__button" type="submit">Login</div></a>-->
+                        <!--<a href="http://www.patience-is-a-virtue.org/" class="login-form__button" type="submit">Login</a>-->
+                        <div class="login-form__links">
+                            <a class="login-form__link" href="./">Forgot your password?</a>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </body>
+</html>
